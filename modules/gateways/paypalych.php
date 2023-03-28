@@ -1,6 +1,8 @@
 <?php
 /**
  * WHMCS Paypalych Payment Gateway Module
+ * Wesite: https://profvds.com
+ * help: info@profvds.com
  */
 
 if (!defined("WHMCS")) {
