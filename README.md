@@ -24,10 +24,18 @@ platform.
 2. Activate the Paypalych module in your WHMCS admin panel (Setup -> Payment Gateways -> All Payment Gateways).
 3. Configure `Shop ID`.
 4. Configure `API token`.
-5. Configure `result url` in the paypalych account (https://your.domain/modules/gateways/callback/paypalych.php).
+5. Configure `result url` in the paypalych account `https://your.domain/modules/gateways/callback/paypalych.php`.
 
 ## Useful Resources
 * [Developer Resources](https://developers.whmcs.com/)
 * [Hook Documentation](https://developers.whmcs.com/hooks/)
 * [API Documentation](https://developers.whmcs.com/api/)
 * [Paypalych API Documentation](https://paypalych.com/reference/api)
+
+## Donations 
+* BTC: `1PH4v4rh23ugwhB39VipcPN45jS3NPBwDY`
+* LTC: `LLrk4xXzAUUB2Nn8zCTPgZbmcVvXu6BFmb`
+* USDT TRC20: `TTofkjw9tiVhyXCyN34Qw3ebiC25mjfwYe`
+
+## Help
+* [PROFVDS virtual servers](https://profvds.com)
