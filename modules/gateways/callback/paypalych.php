@@ -1,4 +1,9 @@
 <?php
+/**
+ * WHMCS Paypalych callback Gateway Module
+ * Wesite: https://profvds.com
+ * help: info@profvds.com
+ */
 
 // Require libraries needed for gateway module functions.
 require_once __DIR__ . '/../../../init.php';
