@@ -4,6 +4,10 @@
  * Name: WHMCS Paypalych Balance Widget
  * Wesite: https://profvds.com
  * help: info@profvds.com
+ * Donations:
+ * BTC: 1PH4v4rh23ugwhB39VipcPN45jS3NPBwDY
+ * LTC: LLrk4xXzAUUB2Nn8zCTPgZbmcVvXu6BFmb
+ * USDT TRC20: TTofkjw9tiVhyXCyN34Qw3ebiC25mjfwYe
  */
 add_hook('AdminHomeWidgets', 1, function() {
     return new PaypalychBalanceWidget();
