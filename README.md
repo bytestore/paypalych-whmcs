@@ -4,6 +4,7 @@
 
 Gateway modules allow you to integrate Paypalych with the WHMCS
 platform.
+The widget shows the balances from the Paypalych account on the WHMCS dashboard.
 
 ## Module Content ##
 
@@ -25,6 +26,8 @@ platform.
 3. Configure `Shop ID`.
 4. Configure `API token`.
 5. Configure `result url` in the paypalych account `https://your.domain/modules/gateways/callback/paypalych.php`.
+
+<img src="https://i.imgur.com/th47Cia.png">
 
 ## Useful Resources
 * [Developer Resources](https://developers.whmcs.com/)
