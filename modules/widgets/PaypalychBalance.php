@@ -2,6 +2,8 @@
 
 /**
  * Name: WHMCS Paypalych Balance Widget
+ * Wesite: https://profvds.com
+ * help: info@profvds.com
  */
 add_hook('AdminHomeWidgets', 1, function() {
     return new PaypalychBalanceWidget();
