@@ -59,12 +59,13 @@ class PaypalychBalanceWidget extends \WHMCS\Module\AbstractWidget
         $balance['balance_available'] = round ($balance['balance_available'],2);
         $balance['balance_locked'] = round ($balance['balance_locked'],2);
         $balance['balance_hold'] = round ($balance['balance_hold'],2);
+        $pplychbalance .= "    Balance: <strong>{$balance['balance_available']}</strong> {$balance['currency']} ~ Locked: {$balance['balance_locked']} ~ Hold: {$balance['balance_hold']}";
+        }
 return <<<EOF
             <div style="margin:10px;padding:10px;background-color:#EFFAE4;text-align:center;font-size:16px;color:#000;">
-            Balance: <strong>{$balance['balance_available']}</strong> {$balance['currency']} ~ Locked: {$balance['balance_locked']} ~ Hold: {$balance['balance_hold']}
+            {$pplychbalance}
             </div>
 EOF;
-        }
         } else {
             echo "Error: " . $response['error_message'] . "\n";
         }
